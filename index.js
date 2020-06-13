@@ -15,8 +15,8 @@ httpProxy
       port: config.httpPort,
     },
     ssl: {
-      key: sk,
-      cert: sc,
+      key: serverKey,
+      cert: servercert,
     },
   })
   .listen(config.proxyPort);
