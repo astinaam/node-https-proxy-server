@@ -1,0 +1,5 @@
+{
+    "httpTarget": "localhost",
+    "httpPort": 3005,
+    "proxyPort": 8001
+}
